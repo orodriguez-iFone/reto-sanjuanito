@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
+    </head>
+
+    <body style="margin: 0; overflow: hidden;">
+        <a-scene
+            vr-mode-ui="enabled: false;"
+            loading-screen="enabled: false;"
+            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+            id="scene"
+            embedded
+            gesture-detector
+        >
+
+        <!-- RETO SNJ 01 -->
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/marker_01.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                    src="assets/reto_01.png"
+                    scale="1 1 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
+        <!-- RETO SNJ 01 -->
+
+        <!-- RETO SNJ 02 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_02.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_02.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 02 -->
+
+        <!-- RETO SNJ 03 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_03.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_03.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 03 -->
+
+        <!-- RETO SNJ 04 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_04.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_04.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 04 -->
+
+        <!-- RETO SNJ 05 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_05.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_05.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 05 -->
+
+        <!-- RETO SNJ 06 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_06.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_06.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 06 -->
+
+        <!-- RETO SNJ 07 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_07.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_07.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 07 -->
+
+        <!-- RETO SNJ 08 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_08.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_08.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 08 -->
+
+        <!-- RETO SNJ 09 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_09.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_09.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 09 -->
+
+        <!-- RETO SNJ 10 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_10.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_10.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler></a-image>
+        </a-marker>
+        <!-- RETO SNJ 10 -->
+
+        <!-- RETO SNJ 11 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern"
+            preset="custom" 
+            url="assets/marker_11.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_11.png" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler></a-image>
+        </a-marker>
+        <!-- RETO SNJ 11 -->
+
+        <!-- RETO SNJ 12 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_12.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" id="markerA">
+            <a-image 
+                src="assets/reto_12.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 12 -->
+
+        <!-- RETO SNJ 13 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_13.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_13.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 13 -->
+
+        <!-- RETO SNJ 14 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_14.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_14.jpeg" 
+                scale="1 1 1" 
+                class="clickable" r
+                otation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 14 -->
+
+        <!-- RETO SNJ 15 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_15.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_15.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 15 -->
+
+        <!-- RETO SNJ 16 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_16.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_16.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 16 -->
+
+        <!-- RETO SNJ 17 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_17.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_17.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 17 -->
+
+        <!-- RETO SNJ 18 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_18.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_18.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 18 -->
+
+        <!-- RETO SNJ 19 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_19.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_19.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 19 -->
+
+        <!-- RETO SNJ 20 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_20.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_20.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 20 -->
+
+        <!-- RETO SNJ 21 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_21.patt" 
+            raycaster="objects: .clickable"
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_21.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 21 -->
+
+        <!-- RETO SNJ 22 -->
+        <a-marker 
+            id="animated-marker" 
+            type="pattern" 
+            preset="custom" 
+            url="assets/marker_22.patt"
+            raycaster="objects: .clickable" 
+            emitevents="true" 
+            cursor="fuse: false; rayOrigin: mouse;" 
+            id="markerA">
+            <a-image 
+                src="assets/reto_22.jpeg" 
+                scale="1 1 1" 
+                class="clickable" 
+                rotation="-90 0 0" 
+                gesture-handler>
+            </a-image>
+        </a-marker>
+        <!-- RETO SNJ 22 -->
+
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
